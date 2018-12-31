@@ -26,7 +26,7 @@ var readCmd = &cobra.Command{
 
 func init() {
 	readCmd.Flags().StringVar(&files, "files", "", "Specify 3 files seperated by ','")
-	readCmd.Flags().BoolVar(&byGender, "byGender", false, "When activated will sort by gemder")
+	readCmd.Flags().BoolVar(&byGender, "byGender", false, "When activated will sort by gender")
 	readCmd.Flags().BoolVar(&byLastName, "byLastName", false, "When activated will sort by last name")
 	readCmd.Flags().BoolVar(&byBirthday, "byBirthday", false, "When activated will sort by birthday")
 

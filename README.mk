@@ -5,6 +5,7 @@ LastName | FirstName | Gender | FavoriteColor | DateOfBirth
 LastName, FirstName, Gender, FavoriteColor, DateOfBirth
 LastName FirstName Gender FavoriteColor DateOfBirth
 
+There are 3 test files provided located in the project root directory; spaceRecords.txt, commaRecords.txt and pipeRecords.txt.  You can also provide your own files.
 The user has the option to sort that data in three ways
 1. By gender
 2. By last name
