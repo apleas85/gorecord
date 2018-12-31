@@ -13,14 +13,14 @@ The user has the option to sort that data in three ways
 
 # Installation
 1. clone into workspace and cd into project directory
-2. install all dependencies ```go dep ensure```
-3. build ```go build```
+2. install all dependencies rungo dep ensure
+3. to build run go build
 
 # Command Line 
 - There are three available flags for read -byGender -byBirthday -byLastName
-- ```./gorecords read --files={file1},{file2},{file3} {flag}```
-- To start a server ```./gorecords server``` 
-- For help ```./gorecords --help```
+- ./gorecords read --files={file1},{file2},{file3} {flag}```
+- To start a server run ./gorecords server 
+- For help run ./gorecords --help
 
 # Server Mode
 The server will start listen on port 9010.  There are 4 paths; 
