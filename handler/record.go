@@ -25,6 +25,6 @@ func Record(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, response, 500)
 	}
 
-	fmt.Fprintln(w, "Successfully wrote to file!")
+	fmt.Fprintln(w, "Successfully stored record!")
 
 }

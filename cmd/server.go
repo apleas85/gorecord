@@ -12,5 +12,5 @@ var serverCmd = &cobra.Command{
 }
 
 func startServerCmd(*cobra.Command, []string) {
-	server.Start()
+	server.Start(files)
 }

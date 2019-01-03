@@ -17,7 +17,7 @@ The user has the option to sort that data in three ways
 3. to build run go build
 
 # Command Line 
-- There are three available flags for read -byGender -byBirthday -byLastName
+- There are three available flags for read -byGender -byBirthday -byLastName, if multiple flags are set the precedents is byGender, byBirthday, and then byLastName
 - ./gorecords read --files={file1},{file2},{file3} {flag}```
 - To start a server run ./gorecords server 
 - For help run ./gorecords --help
